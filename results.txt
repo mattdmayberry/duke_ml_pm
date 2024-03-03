@@ -1,0 +1,32 @@
+Model: Simple Linear Regression
+Dependent Variable: Net Hourly Electrical Energy Output
+Random State: 0
+Features: Temperature, 
+Coefficients: -2.1726024841820357, 
+MSE: 27.799910669569314
+MAE %: 0.00922410065990242
+
+Model: Simple Linear Regression
+Dependent Variable: Net Hourly Electrical Energy Output
+Random State: 42
+Features: Temperature, 
+Coefficients: -2.177091774538218, 
+MSE: 28.912109791641537
+MAE %: 0.009461589669518154
+
+Model: Multiple Linear Regression
+Dependent Variable: Net Hourly Electrical Energy Output
+Random State: 0
+Features: Temperature, Exhaust Vacuum, Ambient Pressure, Relative Humidity, 
+Coefficients: -1.9731309891019635, -0.236499926980069, 0.06387890764108532, -0.15807018580274915, 
+MSE: 19.73369930349764
+MAE %: 0.00786722819693178
+
+Model: Multiple Linear Regression
+Dependent Variable: Net Hourly Electrical Energy Output
+Random State: 42
+Features: Temperature, Exhaust Vacuum, Ambient Pressure, Relative Humidity, 
+Coefficients: -1.9858996947755583, -0.23209357748432882, 0.06219990930921736, -0.15811778688536818, 
+MSE: 20.273705999687444
+MAE %: 0.007932984848767791
+
